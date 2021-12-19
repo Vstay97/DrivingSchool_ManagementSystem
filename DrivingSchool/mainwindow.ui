@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>1333</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="qesComboBox">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>681</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>根据姓名，筛选出该学员的训练总时长</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查询完成所有训练科目、训练时长最短的前10名学员相关信息</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>根据教练姓名，查询指导各科目学员人数和训练总时长</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>根据驾校名称和日期，查询某驾校在某时间范围内的教练信息</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>统计各年龄段报名学习的人数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>统计各驾校训练用车的型号、使用人数和时长</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查询人气最旺的驾校的车辆情况</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查询金牌教练（学员人数居前5名）的工作单位和学员人数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查询已报名但没有学习记录的学员信息</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>根据学生姓名查询学员信息</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查询所有设备信息</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查询所有学生信息</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查询所有教练信息</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查询所有车辆信息</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查询所有学时信息</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="inputLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>130</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="selectButton">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>20</y>
+      <width>201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查询</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>239</y>
+      <width>700</width>
+      <height>900</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEndEdit">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>130</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateBeginEdit">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>130</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="xMai">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>650</y>
+      <width>420</width>
+      <height>236</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

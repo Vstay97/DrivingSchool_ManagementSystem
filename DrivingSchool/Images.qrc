@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/image">
+        <file>img/Xmai.gif</file>
+        <file>img/logo.png</file>
+    </qresource>
+</RCC>
